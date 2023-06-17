@@ -32,7 +32,7 @@
 // }
 
 // export default Header;
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../assets/logo.png'; // Import the image file
 
 function Header() {
