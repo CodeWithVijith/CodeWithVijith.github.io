@@ -1,0 +1,96 @@
+/* Project Container */
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .project-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .project-details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .project-description {
+    color: #888;
+  }
+  
+  /* Portfolio Container */
+  .portfolio-container {
+    display: flex;
+    gap: 2rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+
+
+  /* Skills Section */
+.skills-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 2rem 10rem;
+    align-items: center;
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    mix-blend-mode: multiply;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    mix-blend-mode: multiply;
+  }
+  
+  .skill-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+  
+  .skill-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
